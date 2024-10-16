@@ -1,0 +1,484 @@
+....HTML....
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landed Destination</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="background-slideshow"></div>
+        <div class="title">Landed Destination</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#package">Packages</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2><b>Top Tourist Spots</b></h2>
+    <main class="tourist-spots">
+        <div class="spot">
+            <img src="paris.avif" alt="Eiffel Tower">
+            <div class="spot-info">
+                <h3>1. Eiffel Tower, Paris</h3>
+                <p>Height: 300 meters. An iconic symbol of France, offering stunning views of the city.</p>
+                <p>Rating: ★★★★☆ (4.5/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="greatwall.avif" alt="Great Wall of China">
+            <div class="spot-info">
+                <h3>2. Great Wall of China, Beijing</h3>
+                <p>A UNESCO World Heritage site stretching over 13,000 miles.</p>
+                <p>Rating: ★★★★★ (5/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Colosseum, Rome2.avif" alt="Colosseum">
+            <div class="spot-info">
+                <h3>3. Colosseum, Rome</h3>
+                <p>A grand ancient amphitheater, known for its rich history and architecture.</p>
+                <p>Rating: ★★★★☆ (4.7/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Machu Picchu, Peru.avif" alt="Machu Picchu">
+            <div class="spot-info">
+                <h3>4. Machu Picchu, Peru</h3>
+                <p>An ancient Incan city set high in the Andes Mountains.</p>
+                <p>Rating: ★★★★★ (4.9/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Statue of Liberty2.avif" alt="Statue of Liberty">
+            <div class="spot-info">
+                <h3>5. Statue of Liberty, New York</h3>
+                <p>A symbol of freedom and democracy, located on Liberty Island.</p>
+                <p>Rating: ★★★★☆ (4.4/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Taj Mahal2.avif" alt="Taj Mahal">
+            <div class="spot-info">
+                <h3>6. Taj Mahal, India</h3>
+                <p>A stunning mausoleum and a symbol of love, built by Mughal emperor Shah Jahan.</p>
+                <p>Rating: ★★★★★ (4.8/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Santorini.avif" alt="Santorini">
+            <div class="spot-info">
+                <h3>7. Santorini, Greece</h3>
+                <p>Known for its beautiful sunsets and stunning views of the Aegean Sea.</p>
+                <p>Rating: ★★★★★ (4.9/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Sydney Opera House2.avif" alt="Sydney Opera House">
+            <div class="spot-info">
+                <h3>8. Sydney Opera House, Australia</h3>
+                <p>A modern architectural marvel and a performing arts center.</p>
+                <p>Rating: ★★★★☆ (4.6/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Petra, Jordan2.avif" alt="Petra">
+            <div class="spot-info">
+                <h3>9. Petra, Jordan</h3>
+                <p>An archaeological city famous for its rock-cut architecture and water conduit system.</p>
+                <p>Rating: ★★★★★ (4.7/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Grand Canyon.avif" alt="Grand Canyon">
+            <div class="spot-info">
+                <h3>10. Grand Canyon, USA</h3>
+                <p>A breathtaking natural wonder, known for its stunning vistas and hiking trails.</p>
+                <p>Rating: ★★★★★ (4.8/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Niagara Falls.avif" alt="Niagara Falls">
+            <div class="spot-info">
+                <h3>11. Niagara Falls, Canada/USA</h3>
+                <p>One of the most famous waterfalls in the world, straddling the border between Canada and the USA.</p>
+                <p>Rating: ★★★★★ (4.6/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Stonehenge.avif" alt="Stonehenge">
+            <div class="spot-info">
+                <h3>12. Stonehenge, England</h3>
+                <p>A prehistoric monument of standing stones, steeped in mystery and history.</p>
+                <p>Rating: ★★★★☆ (4.4/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Acropolis.avif" alt="Acropolis">
+            <div class="spot-info">
+                <h3>13. Acropolis, Greece</h3>
+                <p>An ancient citadel located on a rocky outcrop above Athens, showcasing classical architecture.</p>
+                <p>Rating: ★★★★★ (4.8/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Great Barrier Reef, Australia.avif" alt="Great Barrier Reef">
+            <div class="spot-info">
+                <h3>14. Great Barrier Reef, Australia</h3>
+                <p>The largest coral reef system in the world, famous for its marine biodiversity.</p>
+                <p>Rating: ★★★★★ (4.9/5)</p>
+            </div>
+        </div>
+        <div class="spot">
+            <img src="Victoria Falls.avif" alt="Victoria Falls">
+            <div class="spot-info">
+                <h3>15. Victoria Falls</h3>
+                <p>The best time to visit for maximum water flow is from February to May, following the rainy season.</p>
+                <p>Rating: ★★★★★ (4.8/5)</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="package">
+        <section id="packages">
+            <h2 class="packages-title">Affordable Travel Packages</h2>
+            <div class="packages-container">
+                <div class="package">
+                    <img src="Beach Getaway.avif" alt="Beach Getaway">
+                    <h3>Beach Getaway</h3>
+                    <p>Enjoy a relaxing week at a beautiful beach resort.</p>
+                    <p><strong>Price:</strong> $499</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Mountain Adventure.avif" alt="Mountain Adventure">
+                    <h3>Mountain Adventure</h3>
+                    <p>Experience the thrill of hiking and nature.</p>
+                    <p><strong>Price:</strong> $399</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Cultural Tours.avif" alt="Cultural Tour">
+                    <h3>Cultural Tour</h3>
+                    <p>Explore the rich history and culture of the region.</p>
+                    <p><strong>Price:</strong> $299</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="City Escape.avif" alt="City Escape">
+                    <h3>City Escape</h3>
+                    <p>A weekend getaway in a bustling city.</p>
+                    <p><strong>Price:</strong> $199</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Adventure Safari.avif" alt="Adventure Safari">
+                    <h3>Adventure Safari</h3>
+                    <p>Experience wildlife up close in a thrilling safari.</p>
+                    <p><strong>Price:</strong> $599</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Romantic Getaway.avif" alt="Romantic Getaway">
+                    <h3>Romantic Getaway</h3>
+                    <p>Spend a romantic weekend at a luxury resort.</p>
+                    <p><strong>Price:</strong> $799</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Ski Trip.avif" alt="Ski Trip">
+                    <h3>Ski Trip</h3>
+                    <p>Hit the slopes for an exhilarating winter adventure.</p>
+                    <p><strong>Price:</strong> $499</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Culinary Tour.avif" alt="Culinary Tour">
+                    <h3>Culinary Tour</h3>
+                    <p>Explore local cuisines with guided food tours.</p>
+                    <p><strong>Price:</strong> $349</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Historical Journey.avif" alt="Historical Journey">
+                    <h3>Historical Journey</h3>
+                    <p>Visit ancient sites and learn about history.</p>
+                    <p><strong>Price:</strong> $279</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+                <div class="package">
+                    <img src="Spa Retreat.avif" alt="Spa Retreat">
+                    <h3>Spa Retreat</h3>
+                    <p>Unwind with a luxurious spa experience.</p>
+                    <p><strong>Price:</strong> $499</p>
+                    <a href="payment.html">Book Now</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Your Feedback/Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Landed Destination<br> All rights reserved.</p>
+        <p>Contact: 8838611193 | Email: <a href="mailto:landeddestination@gmail.com">landeddestination@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+......CSS......
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.background-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0% { background-image: url('back.avif'); }
+    25% { background-image: url('bbbbbb.avif'); }
+    50% { background-image: url('back1.avif'); }
+    75% { background-image: url('back2.avif'); }
+    100% { background-image: url('back3.avif'); }
+}
+
+.background-slideshow {
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.title {
+    position: relative;
+    z-index: 2; 
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    margin-bottom: 20px; 
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+    color: #333;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    z-index: 2; 
+}
+
+.tourist-spots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.spot {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s;
+}
+
+.spot:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.spot img {
+    max-width: 220px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.spot-info {
+    flex: 1;
+}
+
+.spot-info h3 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.spot-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#packages {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.packages-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.package {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px; 
+    text-align: center;
+    background: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+.package img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#contact {
+    background: rgb(180, 178, 178);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#contact section {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 5px;
+}
+
+#contact input, 
+#contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px;
+  
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
