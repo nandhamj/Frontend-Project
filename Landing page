@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landed Destination</title>
+    <link rel="icon" type="image/x-icon" href="logo5.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -155,70 +156,70 @@
                     <img src="Beach Getaway.avif" alt="Beach Getaway">
                     <h3>Beach Getaway</h3>
                     <p>Enjoy a relaxing week at a beautiful beach resort.</p>
-                    <p><strong>Price:</strong> $499</p>
+                    <p><strong>Price:</strong> ₹36,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Mountain Adventure.avif" alt="Mountain Adventure">
                     <h3>Mountain Adventure</h3>
                     <p>Experience the thrill of hiking and nature.</p>
-                    <p><strong>Price:</strong> $399</p>
+                    <p><strong>Price:</strong>₹45,999 </p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Cultural Tours.avif" alt="Cultural Tour">
                     <h3>Cultural Tour</h3>
                     <p>Explore the rich history and culture of the region.</p>
-                    <p><strong>Price:</strong> $299</p>
+                    <p><strong>Price:</strong> ₹23,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="City Escape.avif" alt="City Escape">
                     <h3>City Escape</h3>
                     <p>A weekend getaway in a bustling city.</p>
-                    <p><strong>Price:</strong> $199</p>
+                    <p><strong>Price:</strong> ₹28,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Adventure Safari.avif" alt="Adventure Safari">
                     <h3>Adventure Safari</h3>
                     <p>Experience wildlife up close in a thrilling safari.</p>
-                    <p><strong>Price:</strong> $599</p>
+                    <p><strong>Price:</strong> ₹34,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Romantic Getaway.avif" alt="Romantic Getaway">
                     <h3>Romantic Getaway</h3>
                     <p>Spend a romantic weekend at a luxury resort.</p>
-                    <p><strong>Price:</strong> $799</p>
+                    <p><strong>Price:</strong> ₹27,000</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Ski Trip.avif" alt="Ski Trip">
                     <h3>Ski Trip</h3>
                     <p>Hit the slopes for an exhilarating winter adventure.</p>
-                    <p><strong>Price:</strong> $499</p>
+                    <p><strong>Price:</strong> ₹32,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Culinary Tour.avif" alt="Culinary Tour">
                     <h3>Culinary Tour</h3>
                     <p>Explore local cuisines with guided food tours.</p>
-                    <p><strong>Price:</strong> $349</p>
+                    <p><strong>Price:</strong> ₹22,999</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Historical Journey.avif" alt="Historical Journey">
                     <h3>Historical Journey</h3>
                     <p>Visit ancient sites and learn about history.</p>
-                    <p><strong>Price:</strong> $279</p>
+                    <p><strong>Price:</strong> ₹25,000</p>
                     <a href="payment.html">Book Now</a>
                 </div>
                 <div class="package">
                     <img src="Spa Retreat.avif" alt="Spa Retreat">
                     <h3>Spa Retreat</h3>
                     <p>Unwind with a luxurious spa experience.</p>
-                    <p><strong>Price:</strong> $499</p>
+                    <p><strong>Price:</strong> ₹24,000</p>
                     <a href="payment.html">Book Now</a>
                 </div>
             </div>
@@ -247,12 +248,13 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Landed Destination<br> All rights reserved.</p>
         <p>Contact: 8838611193 | Email: <a href="mailto:landeddestination@gmail.com">landeddestination@gmail.com</a></p>
+        <p>&copy; 2024 Landed Destination<br> All rights reserved.</p>
     </footer>
 
 </body>
 </html>
+
 ......CSS......
 body {
     font-family: 'Montserrat', sans-serif;
@@ -482,3 +484,11 @@ footer {
     cursor: pointer;
 }
 
+nav {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
