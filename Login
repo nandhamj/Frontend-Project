@@ -1,0 +1,130 @@
+...HTML...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landed Destination - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Landed Destination</h1>
+
+
+        <div id="login" class="form-column">
+            <h2>Login</h2>
+            <form id="login-form" class="form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button><br>
+            </form>
+            <a href="#" onclick="document.getElementById('login').style.display='none'; document.getElementById('forgot-password').style.display='block';" class="forgot-password">Forgot Password?</a><br><br>
+            <button onclick="document.getElementById('login').style.display='none'; document.getElementById('signup').style.display='block';">Sign Up</button>
+        </div>
+
+
+        <div id="signup" class="form-column" style="display: none;">
+            <h2>Sign Up</h2>
+            <form id="signup-form" class="form">
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </form><br>
+            <button onclick="document.getElementById('signup').style.display='none'; document.getElementById('login').style.display='block';">Back to Login</button>
+        </div>
+
+        <div id="forgot-password" class="form-column" style="display: none;">
+            <h2>Forgot Password</h2>
+            <form id="forgot-password-form" class="form">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="New Password" required>
+                <input type="password" placeholder="Confirm New Password" required>
+                <button type="submit">Reset Password</button>
+            </form><br>
+            <button onclick="document.getElementById('forgot-password').style.display='none'; document.getElementById('login').style.display='block';">Back to Login</button>
+        </div>
+    </div>
+</body>
+</html>
+...CSS...
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.avif'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em; 
+    color: #FFD700; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+}
+
+.form-column {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(5, 0, 0);
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+#signup, #forgot-password {
+    display: none;
+}
