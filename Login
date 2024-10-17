@@ -11,11 +11,9 @@
 </head>
 <body>
     <a href="landingpage.html" class="back-home">&#8592; Back to Home</a>
-
+    <a href="Dashboard.html"  class="dashboard"> Dashboard &#8594; </a>
     <div class="container">
         <h1>Landed Destination</h1>
-
-
         <div id="login" class="form-column">
             <h2>Login</h2>
             <form id="login-form" class="form">
@@ -53,6 +51,7 @@
     </div>
 </body>
 </html>
+
 
 ...CSS...
 body {
@@ -140,9 +139,16 @@ h2 {
     text-decoration: none;
     font-size: 1.2em;
 }
+.dashboard {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #FFD700; 
+    text-decoration: none;
+    font-size: 1.2em;
+}
 
 .back-home:hover {
     text-decoration: underline;
 }
-
 
