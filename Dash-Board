@@ -1,0 +1,166 @@
+...Html...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" type="image/x-icon" href="logo5.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="transparent-title">Landed Destination</h1>
+        <h3 class="transparent-title">User Dashboard</h3>
+    </header>
+
+    <div class="dashboard">
+        <nav class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="Landingpage.html">Home</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#travel-history">Travel History</a></li>
+                <li><a href="#expenses">Travel Expenses</a></li>
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#logout">Logout</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section id="packages">
+                <h2>Available Packages</h2>
+                <div class="package-details">
+                    <h3>Package 1: Bali Getaway</h3>
+                    <p>Experience the beauty of Bali with our all-inclusive 5-day package.</p>
+                    <p><strong>Price:</strong> ₹34,000</p>
+                    <p><strong>Inclusions:</strong> Flights, Accommodation, Meals, Tours</p>
+                </div>
+                <div class="package-details">
+                    <h3>Package 2: Paris Dream</h3>
+                    <p>Explore the romantic streets of Paris with our exclusive 7-day package.</p>
+                    <p><strong>Price:</strong> ₹25,000</p>
+                    <p><strong>Inclusions:</strong> Flights, Accommodation, City Tours, Breakfast</p>
+                </div>
+            </section>
+            <section id="travel-history">
+                <h2>Your Travel History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Destination</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023-01-15</td>
+                            <td>Bali</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
+                            <td>2023-06-20</td>
+                            <td>Paris</td>
+                            <td>Completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Travel Company</p>
+    </footer>
+</body>
+</html>
+...css...
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(background3.avif);
+}
+
+
+.dashboard {
+    display: flex; 
+    height: calc(100% - 100px); 
+}
+
+
+.sidebar {
+    width: 250px; 
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    margin-left: 20px; 
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+
+footer {
+    text-align: center;
+    color: #000; 
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.transparent-title {
+    color: #000; 
+}
+
+
+.package-details {
+    background: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+}
+ h2{
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #000;
+    background-color: #ccc; 
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc; 
+}
+
+th {
+    background: rgba(137, 137, 137, 0.5);
+}
